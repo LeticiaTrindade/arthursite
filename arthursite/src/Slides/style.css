@@ -1,0 +1,12 @@
+
+#carouselExampleInterval{
+    margin: 10rem 0rem;
+}
+#carouselExampleInterval{    
+    filter: grayscale(100%);
+    transition: filter 1s;
+}
+
+#carouselExampleInterval:hover{    
+    filter: grayscale(0%);
+}

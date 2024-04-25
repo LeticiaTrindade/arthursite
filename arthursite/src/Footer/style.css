@@ -1,0 +1,34 @@
+.contact{
+    background-color: #62BBC3 ;
+    color: #000728;
+    padding: 1.5rem;
+    font-size: 16px;
+    margin: auto;
+}
+
+.contact > div{
+    min-width: 1140px;
+}
+
+.credit{
+    background-color: #1c2036 ;
+    padding: 1rem;
+}
+
+.footer-button{
+    background: rgb(0,30,31);
+    background: linear-gradient(265deg, rgba(0,30,31,1) 0%, rgba(28,84,82,1) 100%);
+    color: #62BBC3;
+    width: 318px;
+    padding: 1rem 0rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0.3rem;
+    font-weight: 500;
+}
+
+.footer-button:hover {
+    background: #fff;
+    border-bottom: solid 5px #000;
+    color: #000;
+}

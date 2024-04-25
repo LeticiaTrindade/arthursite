@@ -1,0 +1,28 @@
+body{
+  background-color: #0d101f ;
+  padding: 10rem 0rem 0rem 0rem;
+  color: white;
+}
+
+::selection {
+  background-color: #62BBC3;
+  color: #000728;
+}
+
+
+.container{
+  max-width: 1140px ;
+}
+
+body::-webkit-scrollbar {
+  width: 6px;              
+}
+
+body::-webkit-scrollbar-track {
+  background: #0d101f ;        
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #62BBC3;    
+  border-radius: 20px;      
+}

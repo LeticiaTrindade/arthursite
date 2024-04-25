@@ -1,0 +1,60 @@
+.home-button {
+    width: 318px;
+    background-color: #62BBC3;
+    padding: 1rem 0rem;
+    font-size: 1rem;
+    border: none;
+    border: 2px solid transparent;
+    border-radius: 0.3rem;
+    font-weight: 700;
+}
+
+.home-button:hover {
+    background-color: transparent;
+    border: solid 2px #62BBC3;
+    color: #62BBC3;
+}
+
+.left {
+    min-height: 450px;
+    padding: 8rem 0rem;
+}
+
+.left>h3 {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.right {
+    text-align: right;
+    align-items: center;
+}
+
+.profile {
+    filter: drop-shadow(0 0 20px rgba(0, 255, 255, 0.37));
+}
+
+@media only screen and (max-width: 720px) {
+
+    .container {
+        max-width: none;
+    }
+
+    .left, body{
+        padding: 3em 0rem;
+    }
+
+    .right,
+    .left {
+        text-align: center !important;
+        align-items: center;
+    }
+
+    .home {
+        flex-direction: column;
+    }
+
+    #carouselExampleInterval{
+        margin: 3rem 0rem !important;
+    }
+}
